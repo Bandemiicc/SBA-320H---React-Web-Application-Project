@@ -18,7 +18,7 @@ export default function Table() {
 
 
     return(
-        <div>
+        <div className='table-container'>
             <h2>2022 Premier League LeaderBoard</h2>
             {(!data) ? <h4>is loading</h4> : (
                 <table>
